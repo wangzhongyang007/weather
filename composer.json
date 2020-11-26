@@ -1,0 +1,30 @@
+{
+  "name": "wangzhongyang007/weather",
+  "description": "A weather SDK.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wangzhongyang007",
+      "email": "425772719@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Wangzhongyang007\\Weather\\": "./src"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.4",
+    "mockery/mockery": "^1.4"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Wangzhongyang007\\Weather\\ServiceProvider"
+      ]
+    }
+  }
+}
